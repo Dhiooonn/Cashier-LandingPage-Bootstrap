@@ -1,0 +1,75 @@
+:root {
+  /* Color */
+  --blue: #3a38ff;
+  --softblue: #f9fbfc;
+  --navy: #101041;
+  --purplesoft: #e5e4ff;
+  --grey: #dfe2e7;
+  --darkgrey: #949293;
+  --darkgrey2: #e7ebed;
+  --purple: #6261d8;
+  --green: #316762;
+  --white: #ffffff;
+
+  /* Font Weight */
+  --fwextrabold: 800;
+  --fwbold: 700;
+  --fwsemibold: 600;
+  --fwmedium: 500;
+  --fwregular: 400;
+  --fwlight: 300;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+/* Design Style */
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: var(--navy);
+  font-size: 48px;
+  margin: 0;
+}
+
+.medium-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 28px;
+  margin: 0;
+}
+
+.small-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 22px;
+  margin: 0;
+}
+
+.primary-copy {
+  font-size: 16px;
+  font-weight: var(--fwregular);
+  line-height: 28px;
+  color: var(--darkgrey);
+  margin: 0;
+}
+
+.btn-primary {
+  padding: 12px 20px;
+  background: var(--blue);
+  color: var(--white);
+  font-weight: var(--fwsemibold);
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+}
+
+.btn-secondary {
+  padding: 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  font-weight: var(--fwmedium);
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+}
